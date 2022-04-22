@@ -11,7 +11,6 @@ import { WalletModalProvider, WalletMultiButton } from '@solana/wallet-adapter-r
 require('@solana/wallet-adapter-react-ui/styles.css');
 
 const wallets = [ new PhantomWalletAdapter() ]
-
 const { SystemProgram, Keypair } = web3;
 const baseAccount = Keypair.generate();
 
