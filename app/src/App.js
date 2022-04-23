@@ -14,6 +14,7 @@ const wallets = [ new PhantomWalletAdapter() ]
 
 const { SystemProgram, Keypair } = web3;
 const baseAccount = Keypair.generate();
+
 const opts = {
   preflightCommitment: "processed"
 }
